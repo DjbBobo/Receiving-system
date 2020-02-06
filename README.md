@@ -22,7 +22,7 @@
 ### 项目效果图
 对于发件者，无需注册，只需进入收件人发布的链接上传文件即可。此页面供收件人登陆、注册。
 
-![image](http://github.com/DjbBobo/ReceiveFilePro/raw/master/readme_images/1.png)
+![image](http://github.com/DjbBobo/ReceiveFilePro/readme_images/1.png)
 
 登陆成功后，可以查看所创建的收件夹。收件人可对每个收件夹进行编辑、修改收件时间、截止收件、删除收件夹、获取收件页面链接等操作。
 
