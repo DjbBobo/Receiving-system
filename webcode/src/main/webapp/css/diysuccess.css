@@ -1,0 +1,65 @@
+.main {
+	margin-top: 50px;
+}
+
+.head {
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	background-color: #FCF8E3;
+	color: #8A6D3B;
+}
+
+.deadline {
+	color: #00BBD3;
+}
+
+.address div {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.address div input {
+	height: 40px;
+}
+
+.address div button {
+	background-color: #eee;
+	width: 97.5px;
+	height: 40px;
+}
+
+.code {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	margin-top: 40px;
+	padding: 0;
+	text-align: center;
+}
+.code h5 {
+	background-color: #eee;
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	margin-bottom: 15px;
+}
+
+.back {
+	margin-top: 100px;
+}
+
+.back button {
+	width: 170px;
+	height: 70px;
+	font-size: 17px;
+	font-weight: bold;
+	border: 1px solid #23262E;
+}
+
+.back button:hover {
+	background-color: #23262E;
+	color: #eee;
+}

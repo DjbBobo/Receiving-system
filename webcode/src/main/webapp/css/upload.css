@@ -1,0 +1,91 @@
+body {
+	background-color: #FBFBFB;
+}
+
+.nav {
+	margin-top: 30px;
+}
+
+.nav-title div {
+	background-color: #23262E;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.nav-text {
+	height: 180px;
+	border-left: 1px solid #EDEDED;
+	border-right: 1px solid #EDEDED;
+	background-color: #fff;
+}
+
+.nav-text .text {
+	margin: 20px 20px;
+	text-align: center;
+}
+
+.nav-content {
+	background-color: #fff;
+	border: 1px solid #EDEDED;
+	padding: 25px 20px 0px 20px;
+}
+
+.nav-input div {
+	padding-left: 0;
+}
+
+.nav-btn .btn {
+	padding: 10px 0;
+}
+
+.nav-btn .btn button {
+	width: 120px;
+	height: 50px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.nav-btn .btn button:hover {
+	color: #fff;
+	background-color: #23262E;
+}
+
+.layui-upload-drag {
+	cursor: auto;
+}
+
+.layui-upload-drag i,
+p {
+	/*display: none;*/
+}
+
+#list .img {
+	height: 100px;
+	width: 130px;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+#list .img img {
+	height: 100px;
+	width: 100px;
+}
+
+#list .img span {
+	position: absolute;
+	right: -2px;
+	top: -2px;
+	cursor: pointer;
+	border-radius: 11px;
+	padding: 5px;
+}
+
+#list .img span:hover {
+	background-color: red;
+	color: #fff;
+}

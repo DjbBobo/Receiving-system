@@ -1,0 +1,76 @@
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.head {
+	background-color: #23262E;
+}
+
+.head,
+.head-content {
+	height: 50px;
+}
+
+.head .head-content .left-icon,
+.left-text {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+
+.head .head-content .right-info {
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	padding-top: 8px;
+}
+
+.head .head-content .left-text {
+	margin-left: 20px;
+}
+
+.head .head-content .left-text span {
+	color: #fff;
+	font-size: 20px;
+}
+
+.head .head-content .right-info button {
+	height: 32px;
+	width: 32px;
+	border: 0;
+	background: url(img/head.png) no-repeat;
+}
+
+.userinfo {
+	margin-top: 50px;
+}
+
+ul {
+	padding: 0;
+}
+
+.left {
+	text-align: right;
+	font-weight: bold;
+	color: #333333;
+}
+
+.right {
+	padding-left: 10px;
+}
+
+td {
+	padding: 10px;
+}
+
+.list-group a span {
+	padding-right: 5px;
+}

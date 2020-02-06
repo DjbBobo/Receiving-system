@@ -1,0 +1,161 @@
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.head {
+	background-color: #23262E;
+}
+
+.head,
+.head-content {
+	height: 50px;
+}
+
+.head .head-content .left-icon,
+.left-text {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+}
+
+.head .head-content .right-info {
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	padding-top: 8px;
+}
+
+.head .head-content .left-text {
+	margin-left: 20px;
+}
+
+.head .head-content .left-text span {
+	color: #fff;
+	font-size: 20px;
+}
+
+.head .head-content .right-info button {
+	height: 32px;
+	width: 32px;
+	border: 0;
+	background: url(../img/head.png) no-repeat;
+}
+
+.content {
+	margin-top: 30px;
+}
+
+.content .content-title .title-main {
+	background-color: #434A54;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+}
+
+.content .content-title .title-main .filename {
+	cursor: pointer;
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.content .content-title .title-main .title-input {
+	height: 50px;
+	width: 300px;
+	text-indent: 2em;
+	display: none;
+}
+
+.content .content-main .content-center {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.Editor-editor {
+	height: 200px;
+}
+
+.content .content-main .content-center .row div span {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox {
+	font-size: 17px;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox .name {
+	width: 20px;
+	height: 20px;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox .and {
+	padding: 0 3px 0 3px;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox label .first-input {
+	display: none;
+	width: 200px;
+	height: 30px;
+	margin: 0;
+	border: 1px solid deepskyblue;
+	border-radius: 3px;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox label .second-input {
+	display: none;
+	width: 200px;
+	height: 30px;
+	margin: 0;
+	border: 1px solid deepskyblue;
+	border-radius: 3px;
+}
+
+.content .content-main .content-center .row .content-nameRule .checkbox label input {
+	width: 20px;
+	height: 20px;
+	margin-top: 0;
+	line-height: 20px;
+}
+
+.content .content-main .content-center .last-btn div button {
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+}
+
+.content .content-main .content-center .last-btn .last button {
+	border: 1px solid #D9534F;
+	color: #D9534F;
+}
+
+.content .content-main .content-center .last-btn .last button:hover {
+	background-color: #D9534F;
+	color: #fff;
+}
+
+.content .content-main .content-center .last-btn .next button {
+	border: 1px solid #434A54;
+	color: #434A54;
+}
+
+.content .content-main .content-center .last-btn .next button:hover {
+	background-color: #434A54;
+	color: #fff;
+}
+
+.list-group a span {
+	padding-right: 5px;
+}
