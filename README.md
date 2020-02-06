@@ -7,8 +7,8 @@
 
 ### 项目技术栈
 #### 后端技术栈
-1. Spirng
-2. SpringMVC
+1. SpringMVC
+2. Spring
 3. Mybatis
 4. MySQL
 5. ...
